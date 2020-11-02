@@ -1,0 +1,66 @@
+.cont {
+  margin: 0 auto;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%; }
+  .cont__item {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%; }
+    .cont__item:first-child {
+      height: 50vh; }
+    .cont__item:last-child {
+      height: 30vh; }
+  .cont__menu {
+    padding: 0;
+    width: 100%;
+    top: 0; }
+  .cont__contacts > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    padding-left: 10%; }
+  .cont__contacts span {
+    width: 30%; }
+    .cont__contacts span:first-child {
+      margin: 0; }
+  .cont__button {
+    display: block;
+    width: 30%;
+    border-radius: 15px 0 0 15px; }
+  .cont__menu {
+    flex-direction: row;
+    background-color: #f9f9f9; }
+  .cont__address {
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .cont__title:before {
+    left: -20px;
+    top: 2px; }
+  .cont__map-container:before {
+    height: 40vh; }
+  .cont__map {
+    height: 40vh; }
+
+.btn-address {
+  height: 50vh; }
+
+.btn-contacts {
+  height: 20vh; }
+
+#address-menu {
+  height: 50vh; }
+
+#contacts-menu {
+  height: 20vh; }

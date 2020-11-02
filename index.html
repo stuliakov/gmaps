@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/def.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px)" href="./dist/css/md.css">
+    <link rel="stylesheet" media="screen and (min-width: 993px)" href="./dist/css/lg.css">
+  </head>
+  <body>
+    <section class="cont">
+      <div class="btn-group cont__item">
+        <button class="btn btn-lg dropdown-toggle cont__button btn-address" type="button" data-toggle="collapse" data-target="#address-menu" aria-expanded="false" aria-controls="address-menu">
+          <span>Address</span>
+          <div class="triangle">
+            <div></div>
+          </div>
+        </button>
+        <div class="dropdown-menu cont__menu" id='address-menu'>
+          <div class="cont__address">
+            <span class="cont__title">
+              Borschagivska ave, 16, Polytecnical Unversity, Kiev District, 3120,
+              Kiev
+            </span>
+          </div>
+
+          <div class="cont__map-container">
+            <div class="cont__map" id="map">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="btn-group cont__item">
+        <button class="btn btn-lg dropdown-toggle cont__button btn-contacts" type="button" data-toggle="collapse" data-target="#contacts-menu" aria-expanded="false" aria-controls="contacts-menu">
+          <span>Contacts</span>
+          <div class="triangle">
+            <div></div>
+          </div>
+        </button>
+        <div class="dropdown-menu cont__menu" id='contacts-menu'>
+          <div class="cont__contacts">
+            <div class="cont__main">
+              <span class="cont__phone">+380 44 222 1111</span>
+              <span class="cont__email">some.email@gmail.com</span>
+            </div>
+            <div class="cont__social">
+              <span class="cont__telegram">@telega</span>
+              <span class="cont__instagram">insta777</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    <script src="./src/scripts/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzCI9Z6tdV9OTLg7kSzQ2JueuBS_K8QjA&callback=initMap"></script>
+  </body>

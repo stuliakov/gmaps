@@ -1,0 +1,20 @@
+{
+  "name": "gmaps",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "V.Tuliakov (slava.tuliakov@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-purgecss": "^3.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

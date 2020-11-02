@@ -1,0 +1,189 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__item {
+    margin: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    // align-items: center;
+    // justify-content: center;
+  }
+  &__button {
+    position: relative;
+    min-width: 287px;
+    height: 34px;
+    background-color: #edeff1;
+    color: #333333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:active {
+      background-color: #edeff1;
+    }
+
+
+    &:after {
+      content: none
+    }
+    & span {
+      margin-right: 5px;
+    }
+  }
+  &__menu {
+    position: relative;
+    border: none;
+
+  }
+  &__contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    & span {
+      position: relative;
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+  }
+  &__phone {
+    //margin-top: 50px;
+
+    &:before {
+      content: '';
+      background: url("./../../src/assets/telephone.png") no-repeat;
+      position: absolute;
+      left: -30px;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+      //transform: scale(0.5);
+    }
+  }
+  &__email {
+    &:before {
+      content: '';
+      background: url("./../../src/assets/gmail.png") no-repeat;
+      position: absolute;
+      left: -30px;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+      //transform: scale(0.5);
+    }
+  }
+  &__telegram {
+    &:before {
+      content: '';
+      background: url("./../../src/assets/telegram.png") no-repeat;
+      position: absolute;
+      left: -30px;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+      //transform: scale(0.5);
+    }
+  }
+  &__instagram {
+    &:before {
+      content: '';
+      background: url("./../../src/assets/instagram.png") no-repeat;
+      position: absolute;
+      left: -30px;
+      top: 2px;
+      width: 16px;
+      height: 16px;
+      //transform: scale(0.5);
+
+    }
+  }
+
+  &__address {
+    text-align: center;
+    position: relative;
+
+    &:before {
+      content: '';
+      background: url("./../../src/assets/mark.png") no-repeat;
+      position: absolute;
+      top: 3px;
+      left: 19px;
+      width: 11px;
+      height: 16px;
+      transform: scale(0.8);
+    }
+  }
+  .map__container {
+    &:before {
+      content: '';
+      position: absolute;
+      background-color: #154B93;
+      width: 6px;
+      height: 249px;
+      border-radius: 10px 0 0 10px;
+
+    }
+  }
+  &__map {
+    position: relative;
+    width: calc(100% - 6px);
+    height: 249px;
+    float: right;
+
+    & div {
+    }
+
+  }
+
+
+}
+#address-menu {
+  position: relative;
+  //display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.triangle {
+  position: relative;
+  width: 10px;
+}
+.triangle>div {
+  width: 8px;
+  height: 1px;
+  background: black;
+}
+
+.triangle>div:before {
+  content: " ";
+  display: block;
+  width: 8px;
+  height: 1px;
+  background: black;
+  -webkit-transform: rotate(56deg);
+  -moz-transform: rotate(56deg);
+  -ms-transform: rotate(56deg);
+  transform: rotate(56deg);
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+.triangle>div:after {
+  content: " ";
+  display: block;
+  width: 8px;
+  height: 1px;
+  background: black;
+  -webkit-transform: rotate(-56deg);
+  -moz-transform: rotate(-56deg);
+  -ms-transform: rotate(-56deg);
+  transform: rotate(-56deg);
+  position: absolute;
+  top: -3px;
+  left: -2px;
+}
